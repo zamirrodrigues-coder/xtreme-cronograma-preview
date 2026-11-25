@@ -1,1 +1,32 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta http-equiv="refresh" content="0; url=../cronograma/"><title>Xtreme: Revisão do Cronograma</title></head><body><p>A revisão agora tem todos os dias numa página só: <a href="../cronograma/">abrir o cronograma</a>.</p></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Revisão do Cronograma: Endereço Novo</title>
+<style>
+  body { font-family: "Segoe UI", system-ui, sans-serif; background: #f6f8fa; color: #1f2328; margin: 0; display: flex; min-height: 100vh; align-items: center; justify-content: center; }
+  .caixa { background: #fff; border: 1px solid #d1d9e0; border-left: 6px solid #e8590c; border-radius: 8px; padding: 28px 32px; max-width: 540px; margin: 20px; }
+  h1 { font-size: 22px; margin: 0 0 10px; }
+  p { line-height: 1.5; margin: 0 0 18px; }
+  a.botao { display: inline-block; background: #e8590c; color: #fff; text-decoration: none; padding: 12px 20px; border-radius: 6px; font-weight: 600; }
+  .end { font-size: 14px; color: #1f2328; margin-top: 16px; word-break: break-all; }
+  .dica { font-size: 13px; color: #59636e; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="caixa">
+  <h1>A Revisão do Cronograma Mudou de Endereço</h1>
+  <p>Este endereço não abre mais o sistema. Use o endereço novo, onde estão todos os ajustes da equipe.</p>
+  <a class="botao" id="novo" href="https://revisao.2-31-5-231.sslip.io/sexta/">Abrir a Revisão do Cronograma</a>
+  <div class="end">Endereço novo: <b>https://revisao.2-31-5-231.sslip.io/sexta/</b></div>
+  <div class="dica">Atualize o seu favorito e o atalho do celular.</div>
+</div>
+<script>
+  // mantém a revisão escolhida (?rev=) e o ponto da página (#) no endereço novo
+  var a = document.getElementById('novo');
+  a.href = 'https://revisao.2-31-5-231.sslip.io/sexta/' + location.search + location.hash;
+</script>
+</body>
+</html>
